@@ -74,7 +74,7 @@ namespace CobaltAlchemy
     }
 
     //The 'player' class defines behaviors that allow the actual player
-    //to control its actions
+    //to control its actions  
     class FPlayer : FActor
     {
         public FPlayer(Vector3 _position) : base(_position)
@@ -87,4 +87,6 @@ namespace CobaltAlchemy
             base.update(elapsed_time);
         }
     }
+
+
 }
